@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.app-container{
+  width: 400px;
+  background-color: #35374B;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app-container input{
+  height: 50px;
+  width: 250px;
+  margin-top: 10px;/**/
+  border: 2px solid black;
+  border-radius: 10px;
+  /* border-top-right-radius: 0px; */
+  /* border-bottom-right-radius: 0px; */
+  font-size: 15px;
+  padding: 10px;
+}
+.app-container input::placeholder{
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+}
+.app-container button{
+  margin-top: 10px;
+  height: 30px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  /* border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.app-container button:hover {
+  background-color: #333;
+}
+
+.error{
+  color: red;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.movie-info{
+  width: 400px;
+  background-color: #35374B ;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-info h2{
+  padding-top: 10px;
+}
+.movie-info p{
+  padding-top: 5px;
+}
+.poster{
+  height: 300px;
+  width: 300px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
